@@ -21,7 +21,7 @@ Esse código trata-se de um montador de sanduíches. Um sanduíche possui pão, 
 * Fazer com que objetos compostos armazenem outros objetos que implementam a mesma interface;
 * Permitir que o cliente trate uma “parte” e um “todo” da mesma forma.
 
-Com isso, o composite permite que objetos simples e complexos sejam tratados de forma igual e que esses objetos sejam adicionados sem a 
+Com isso, o composite permite que objetos simples e complexos sejam tratados de forma igual.
 
 ### Explicação do código - composite.cpp
 O código implementado trata-se de um sistema de arquivos simples, com pastas e arquivos. A interface ItemSistema definine as funções de mostrar e ver o tamanho, que será utilizada tanto para as pastas, quanto para os arquivos. No objeto do tipo pasta é possível adicionar mais itens, inclusive mais pastas, formando assim uma estrutura hierárquica recursiva, ideal para o padrão **Composite**. Com esse código, é possível criar pastas e arquivos, além de poder mostrar seus conteúdos e tamanho de forma clara ao cliente.
